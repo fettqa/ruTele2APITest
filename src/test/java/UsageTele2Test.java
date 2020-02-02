@@ -1,5 +1,4 @@
 import com.jayway.restassured.RestAssured;
-import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
