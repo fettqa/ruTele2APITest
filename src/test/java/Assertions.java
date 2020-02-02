@@ -10,9 +10,9 @@ public class Assertions {
             isNumber(s);
         }
     }
-    public static void startsWithString(ArrayList<String> list) {
+    public static void startsWithString(ArrayList<String> list, String template) {
         for (String i : list) {
-            Assert.assertTrue(i.matches("prod(.*)"));
+            Assert.assertTrue(i.matches(template + "(.*)"));
         }
     }
 }

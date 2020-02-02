@@ -37,8 +37,7 @@ public class UsageTele2Test {
                 .extract()
                 .path("data.roamingProductId");
 
-        Assertions.startsWithString(dataRoamingProductId);
-
+        Assertions.startsWithString(dataRoamingProductId, "prod");
 
     }
 }
